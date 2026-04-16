@@ -39,6 +39,7 @@ ul {
 
 .right-side {
   display: flex;
+  flex-direction: column;
   height: fit-content;
 }
 
@@ -47,4 +48,22 @@ ul {
   color: #F9FAF8;
   font-weight: 900;
   margin-top: 100px;
+  width: 300px;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 380px;
+  margin-top: 10px;
+}
+
+.image-p {
+  margin-top: 100px;
+  background-color: rgb(167, 165, 165);
+  color: #F9FAF8;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
