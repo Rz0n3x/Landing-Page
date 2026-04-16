@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: 'Roboto';
 }
 
 .hero {
@@ -58,6 +59,17 @@ ul {
   margin-top: 10px;
 }
 
+.btn {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 20px;
+  margin-top: 13px;
+  font-weight: 600;
+}
+
+
 .image-p {
   margin-top: 100px;
   background-color: rgb(167, 165, 165);
@@ -66,4 +78,45 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.below-hero {
+  display: flex;
+  justify-content: center;
+}
+
+.some-p {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+
+.one, .two, .three, .four {
+  width: 200px;
+  height: 200px;
+  border: 4px solid blue;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.below-blue {
+  display: flex;
+}
+
+.text {
+  text-align: center;
+  width: 170px;
+  margin-left: 15px;
+  font-size: 18px;
+  color: #1F2937
 }
