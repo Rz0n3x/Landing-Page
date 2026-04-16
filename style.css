@@ -8,6 +8,8 @@
   background-color: #1F2937;
   color: #F9FAF8;
   height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 .top {
@@ -18,13 +20,31 @@
 
 .right-link {
   display: flex;
-  align-self: center; 
+  align-self: flex-start;
   list-style-type: none;
   gap: 10px;
   font-size: 18px;
   color: #E5E7EB;
+  margin-top: 8px;
 }
 
 ul {
   text-decoration: none;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side {
+  display: flex;
+  height: fit-content;
+}
+
+.below-p {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  margin-top: 100px;
 }
