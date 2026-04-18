@@ -142,3 +142,47 @@ ul {
   font-size: 30px;
   font-weight: 900;
 }
+
+.footer {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-con {
+  background-color: #3882F6;
+  width: 1000px;
+  height: 150px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-text {
+  color: #F9FAF8;
+}
+
+.sign-text {
+  color: #E5E7EB;
+}
+
+.footer-btn {
+  background: none;
+  color: #F9FAF8;
+  border: 2px solid white;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 2px 15px;
+}
+
+.footer-btn:hover {
+  cursor: pointer;
+}
